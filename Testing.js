@@ -15,8 +15,9 @@ function find_area_square(length, width){
  * @return {number} the sum of all the numbers
 **/
 function sum_of_numbers(numbers){
-    let total = i = 0; i < 
-        return (sum)
+    let sum = 0;
+     for (i=0; i < numbers; i++) 
+     return ('sum_of_numbers')
 }
 
 
@@ -52,7 +53,7 @@ function find_smallest_number(numbers){
 **/
 
 function abbreviate(word, length){      
-    for ( let i = 0; i < length i-)
+    //for ( let i = 0; i < length i-)
     
 }
 
