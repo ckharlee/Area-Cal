@@ -39,12 +39,13 @@ function find_smaller_number(a, b){
 **/
 
 function find_smallest_number(numbers){
-    let find_smallest_number = i = 0 < numbers;
-    if (numbers[i] < smallest);
-        return smallest;
-            
-
-
+    let smallest = numbers[0];
+    for (let i=0; i <numbers.length; i++){
+    if (numbers[i] < smallest){
+        smallest = numbers[i];
+        }
+    }
+    return(smallest)
 
 /**
  * @param {string} word - a random word
@@ -53,8 +54,11 @@ function find_smallest_number(numbers){
 **/
 
 function abbreviate(word, length){      
-    //for ( let i = 0; i < length i-)
-    
+    let total ='';
+    for (i = 0; i <length; i++){
+        total = total + word[i]
+    }       
+        return total
 }
 
 
@@ -65,8 +69,8 @@ function abbreviate(word, length){
 **/
 
 function get_full_name(first_name, last_name){
-    let get_full_name = "last_name,first_name"
-    console.log (get_full_name)
+    let get_full_name = last_name + ',' + first_name
+    return get_full_name
 }
 
 /**
